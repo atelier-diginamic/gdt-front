@@ -11,7 +11,7 @@ export class OccupationChauffeurComponent implements OnInit {
   constructor(private srv: AuthService) { }
 
   ngOnInit(): void {
-    if (localStorage.getItem('status') != 'Administrateur') {
+    if (localStorage.getItem('status') != 'Chauffeur') {
       this.srv.secuRoute()
     }
   }
