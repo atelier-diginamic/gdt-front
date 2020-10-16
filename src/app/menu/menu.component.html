@@ -28,9 +28,6 @@
       <li *ngIf="storage.getItem('status')==='Administrateur'" class="nav-item">
         <a class="nav-link" routerLinkActive="active" routerLink="administrateur/vehicules">Véhicules</a>
       </li>
-      <li *ngIf="storage.getItem('status')==='Administrateur'" class="nav-item">
-        <a class="nav-link" routerLinkActive="active" routerLink="administrateur/statistiques">Statistiques</a>
-      </li>
     </ul>
     <div class="deco">
       <p>Hello {{collegueCo.nom}} !</p>

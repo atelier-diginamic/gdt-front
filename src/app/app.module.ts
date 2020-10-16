@@ -23,7 +23,6 @@ import { ChauffeursAdminComponent } from './menu/chauffeurs-admin/chauffeurs-adm
 import { PageCollabComponent } from './pages/page-collab/page-collab.component';
 import { PageChauffeurComponent } from './pages/page-chauffeur/page-chauffeur.component';
 import { PageAdminComponent } from './pages/page-admin/page-admin.component';
-import { StatistiquesAdminComponent } from './menu/statistiques-admin/statistiques-admin.component';
 import { VehiculesAdminComponent } from './menu/vehicules-admin/All Vehicules/vehicules-admin.component';
 import { ConfirmationCovoiturageComponent } from './modals/confirmation-covoiturage/confirmation-covoiturage.component';
 import { ReservationsCollabModal } from './modals/reservations-collab-modal/reservations-collab.modal';
@@ -54,7 +53,6 @@ import { ReservationCovoiturageComponent } from './modals/reservation-covoiturag
     PlanningChauffeurComponent,
     OccupationChauffeurComponent,
     ChauffeursAdminComponent,
-    StatistiquesAdminComponent,
     VehiculesAdminComponent,
     ConfirmationCovoiturageComponent,
     ReservationsCollabModal,
